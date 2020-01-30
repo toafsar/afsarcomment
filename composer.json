@@ -1,0 +1,21 @@
+{
+    "name": "afsar/ordercomments",
+    "description": "A Magento 2 module for exporting order(inovice not generated) data into xml at the time of comment",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Afsar\\OrderComments\\": ""
+        }
+    }
+}
